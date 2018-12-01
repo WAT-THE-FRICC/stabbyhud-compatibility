@@ -3644,10 +3644,6 @@
 		}		
 	}
 	
-	"RankModelPanel"
-	{
-		"xpos" "9000"
-	}
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
