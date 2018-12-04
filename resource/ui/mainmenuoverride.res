@@ -3644,14 +3644,33 @@
 		}		
 	}
 	
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"-254"//cs-0.5-180"//426-500-180
+		"ypos"			"cs-0.5-32"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"38"//-89"
-		"ypos"			"160"
-		"zpos"			"0"
-		"wide"			"245"//320"
+		"xpos"			"-87"//c-513"
+		"ypos"			"cs-0.5-27"
+		"zpos"			"-52"
+		"wide"			"320"
 		"tall"			"100"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
@@ -3659,7 +3678,7 @@
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
-		"show_model"	"1"
+		"show_model"	"0"
 		"show_type"		"1"
 	}
 	
@@ -3667,8 +3686,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"233"
-		"ypos"			"220"
+		"xpos"			"266"//c-160"
+		"ypos"			"223"
+		"zpos"			"52"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -4076,7 +4096,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"HudFontSmallBold"
-		"labelText"		"compatibility fork v. 2018.11a"
+		"labelText"		"compatibility fork v. 2018.12a"
 		"textAlignment"	"west"
 		"xpos"			"38"
 		"ypos"			"102"
@@ -4094,7 +4114,7 @@
 		"fieldName"	 	"BG"
 		"xpos"			"24"
 		"ypos"			"c-300"
-		"zpos"			"-10"
+		"zpos"			"-100"
 		"wide"			"260"
 		"tall"			"900"
 		"fillcolor"		"0 0 0 245"
